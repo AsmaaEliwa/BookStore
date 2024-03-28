@@ -11,6 +11,11 @@
 		7FBA44A42BB5BFEF0080EF43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA44A32BB5BFEF0080EF43 /* ContentView.swift */; };
 		7FBA44A62BB5BFF20080EF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FBA44A52BB5BFF20080EF43 /* Assets.xcassets */; };
 		7FBA44A92BB5BFF20080EF43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FBA44A82BB5BFF20080EF43 /* Preview Assets.xcassets */; };
+		7FBA44B02BB5C09F0080EF43 /* BookCategery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA44AF2BB5C09F0080EF43 /* BookCategery.swift */; };
+		7FBA44B32BB5C2170080EF43 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA44B22BB5C2170080EF43 /* Author.swift */; };
+		7FBA44B52BB5C4060080EF43 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA44B42BB5C4060080EF43 /* Book.swift */; };
+		7FBA44B72BB5D3250080EF43 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA44B62BB5D3250080EF43 /* Sale.swift */; };
+		7FBA44B92BB5D4FB0080EF43 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA44B82BB5D4FB0080EF43 /* Expense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		7FBA44A32BB5BFEF0080EF43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7FBA44A52BB5BFF20080EF43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FBA44A82BB5BFF20080EF43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FBA44AF2BB5C09F0080EF43 /* BookCategery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCategery.swift; sourceTree = "<group>"; };
+		7FBA44B22BB5C2170080EF43 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		7FBA44B42BB5C4060080EF43 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		7FBA44B62BB5D3250080EF43 /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
+		7FBA44B82BB5D4FB0080EF43 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,7 @@
 				7FBA44A32BB5BFEF0080EF43 /* ContentView.swift */,
 				7FBA44A52BB5BFF20080EF43 /* Assets.xcassets */,
 				7FBA44A72BB5BFF20080EF43 /* Preview Content */,
+				7FBA44B12BB5C1DD0080EF43 /* Model */,
 			);
 			path = BookStore;
 			sourceTree = "<group>";
@@ -65,6 +76,18 @@
 				7FBA44A82BB5BFF20080EF43 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FBA44B12BB5C1DD0080EF43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FBA44AF2BB5C09F0080EF43 /* BookCategery.swift */,
+				7FBA44B22BB5C2170080EF43 /* Author.swift */,
+				7FBA44B42BB5C4060080EF43 /* Book.swift */,
+				7FBA44B62BB5D3250080EF43 /* Sale.swift */,
+				7FBA44B82BB5D4FB0080EF43 /* Expense.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FBA44B92BB5D4FB0080EF43 /* Expense.swift in Sources */,
 				7FBA44A42BB5BFEF0080EF43 /* ContentView.swift in Sources */,
+				7FBA44B02BB5C09F0080EF43 /* BookCategery.swift in Sources */,
+				7FBA44B32BB5C2170080EF43 /* Author.swift in Sources */,
+				7FBA44B52BB5C4060080EF43 /* Book.swift in Sources */,
+				7FBA44B72BB5D3250080EF43 /* Sale.swift in Sources */,
 				7FBA44A22BB5BFEF0080EF43 /* BookStoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
